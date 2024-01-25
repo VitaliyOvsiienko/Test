@@ -106,3 +106,23 @@
 // b.push('Ajax');
 // console.log(a);
 // console.log(b);
+
+//// Генерация случайных чисел
+
+// const min = 1;
+// const max = 36;
+// const generatedNumbers = [];
+
+// for (let i = 0; i < 6; i++) {
+//   let result;
+
+//   do {
+//     result = Math.round(Math.random() * (max - min) + min);
+//   } while (generatedNumbers.includes(result));
+
+//   generatedNumbers.push(result);
+// }
+
+// generatedNumbers.sort((a, b) => a - b);
+
+// console.log(generatedNumbers.join(', '));
